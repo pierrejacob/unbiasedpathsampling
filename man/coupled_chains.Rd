@@ -4,8 +4,14 @@
 \alias{coupled_chains}
 \title{Coupled MCMC chains}
 \usage{
-coupled_chains(single_kernel, coupled_kernel, rinit, m = 1,
-  max_iterations = Inf, preallocate = 10)
+coupled_chains(
+  single_kernel,
+  coupled_kernel,
+  rinit,
+  m = 1,
+  max_iterations = Inf,
+  preallocate = 10
+)
 }
 \arguments{
 \item{single_kernel}{function taking a state (in a vector), its log density and an iteration, and returning

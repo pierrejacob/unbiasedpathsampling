@@ -4,8 +4,15 @@
 \alias{unbiased_estimator}
 \title{Unbiased estimator}
 \usage{
-unbiased_estimator(single_kernel, coupled_kernel, rinit, h = function(x)
-  x, k = 0, m = 1, max_iterations = Inf)
+unbiased_estimator(
+  single_kernel,
+  coupled_kernel,
+  rinit,
+  h = function(x) x,
+  k = 0,
+  m = 1,
+  max_iterations = Inf
+)
 }
 \arguments{
 \item{single_kernel}{function taking a state (in a vector), its log density and an iteration, and returning

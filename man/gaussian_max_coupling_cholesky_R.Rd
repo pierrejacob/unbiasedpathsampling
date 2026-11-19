@@ -4,8 +4,14 @@
 \alias{gaussian_max_coupling_cholesky_R}
 \title{Maximal coupling of two multivariate Normal distributions}
 \usage{
-gaussian_max_coupling_cholesky_R(mu1, mu2, Cholesky1, Cholesky2,
-  Cholesky_inverse1, Cholesky_inverse2)
+gaussian_max_coupling_cholesky_R(
+  mu1,
+  mu2,
+  Cholesky1,
+  Cholesky2,
+  Cholesky_inverse1,
+  Cholesky_inverse2
+)
 }
 \arguments{
 \item{mu1}{mean of first distribution}

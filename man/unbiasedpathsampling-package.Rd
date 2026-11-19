@@ -2,8 +2,8 @@
 % Please edit documentation in R/unbiasedpathsampling-package.R
 \docType{package}
 \name{unbiasedpathsampling-package}
-\alias{unbiasedpathsampling-package}
 \alias{unbiasedpathsampling}
+\alias{unbiasedpathsampling-package}
 \title{unbiasedpathsampling}
 \description{
 Unbiased Path Sampling
