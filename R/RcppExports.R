@@ -70,6 +70,22 @@ dmvnorm_cholesky_inverse <- function(x, mean, cholesky_inverse) {
     .Call('_unbiasedpathsampling_dmvnorm_cholesky_inverse', PACKAGE = 'unbiasedpathsampling', x, mean, cholesky_inverse)
 }
 
+rmvnorm_max_coupling_ <- function(mu1, mu2, Sigma1, Sigma2) {
+    .Call('_unbiasedpathsampling_rmvnorm_max_coupling_', PACKAGE = 'unbiasedpathsampling', mu1, mu2, Sigma1, Sigma2)
+}
+
+rmvnorm_max_coupling_cholesky_ <- function(mu1, mu2, Cholesky1, Cholesky2, Cholesky_inverse1, Cholesky_inverse2) {
+    .Call('_unbiasedpathsampling_rmvnorm_max_coupling_cholesky_', PACKAGE = 'unbiasedpathsampling', mu1, mu2, Cholesky1, Cholesky2, Cholesky_inverse1, Cholesky_inverse2)
+}
+
+rmvnorm_reflection_max_coupling_ <- function(mu1, mu2, Sigma_chol, inv_Sigma_chol) {
+    .Call('_unbiasedpathsampling_rmvnorm_reflection_max_coupling_', PACKAGE = 'unbiasedpathsampling', mu1, mu2, Sigma_chol, inv_Sigma_chol)
+}
+
+rmvnorm_reflection_max_coupling_diag_ <- function(mu1, mu2, Sigma_chol) {
+    .Call('_unbiasedpathsampling_rmvnorm_reflection_max_coupling_diag_', PACKAGE = 'unbiasedpathsampling', mu1, mu2, Sigma_chol)
+}
+
 rnorm_reflectionmax_ <- function(mu1, mu2, Sigma_chol, inv_Sigma_chol) {
     .Call('_unbiasedpathsampling_rnorm_reflectionmax_', PACKAGE = 'unbiasedpathsampling', mu1, mu2, Sigma_chol, inv_Sigma_chol)
 }

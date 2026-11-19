@@ -7,6 +7,7 @@ TODO
 .Rhistory
 .RData
 .Ruserdata
+Rplots.pdf
 src/*.o
 src/*.so
 src/*.dll
