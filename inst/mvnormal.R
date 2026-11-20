@@ -28,7 +28,7 @@ tic("UPS multivariate normal")
 
 
 # dimension of the state space
-dimension <- 5
+dimension <- 8
 # set path of distributions
 D <- 4
 mean1 <- rep(D, dimension)
